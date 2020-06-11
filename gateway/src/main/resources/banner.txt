@@ -1,0 +1,9 @@
+${AnsiColor.GREEN}
+#####  ####  #####   ####  #      #  ####  #####
+  #   #    # #    # #    # #      # #        #
+  #   #    # #    # #    # #      #  ####    #
+  #   #    # #    # #    # #      #      #   #
+  #   #    # #    # #    # #      # #    #   #
+  #    ####  #####   ####  ###### #  ####    #   　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　■　　　　■■　　　■■■　　　　　　　　　■■　　　　　　　
+    gateway @ todolist
+    Spring Boot Version: ${spring-boot.version}

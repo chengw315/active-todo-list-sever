@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tech.chengw.www.dao.SubtaskMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="tech.chengw.www.entity.po.Subtask">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="root_id" property="rootId" />
+        <result column="parent_id" property="parentId" />
+        <result column="script_id" property="scriptId" />
+        <result column="subtask_name" property="subtaskName" />
+        <result column="subtask_state" property="subtaskState" />
+        <result column="gmt_create_time" property="gmtCreateTime" />
+        <result column="gmt_modify_time" property="gmtModifyTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, user_id, root_id, parent_id, script_id, subtask_name, subtask_state, gmt_create_time, gmt_modify_time
+    </sql>
+
+</mapper>

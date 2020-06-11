@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: user-sync-service
+  cloud:
+    nacos:
+      config:
+        server-addr: ${NACOS_ADDR:106.15.251.107}
+        file-extension: yml
+        namespace: ${NACOS_NAMESPACE:a3773d97-cd74-4c09-b101-238c084f9c7f}
+        group: ${NACOS_GROUP:TO_DO_LIST}
+      discovery:
+        server-addr: ${spring.cloud.nacos.config.server-addr}
+        service: ${spring.application.name}
+        namespace: ${spring.cloud.nacos.config.namespace}
+        ip: ${SERVICE_IP:127.0.0.1}
+
+
+

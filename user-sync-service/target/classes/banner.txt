@@ -1,0 +1,9 @@
+${AnsiColor.GREEN}
+#####  ####  #####   ####  #      #  ####  #####
+  #   #    # #    # #    # #      # #        #
+  #   #    # #    # #    # #      #  ####    #
+  #   #    # #    # #    # #      #      #   #
+  #   #    # #    # #    # #      # #    #   #
+  #    ####  #####   ####  ###### #  ####    #   　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　■　　　　■■　　　■■■　　　　　　　　　■■　　　　　　　
+    user-sync-service @ todolist
+    Spring Boot Version: ${spring-boot.version}

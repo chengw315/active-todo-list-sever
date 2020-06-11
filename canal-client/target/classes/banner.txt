@@ -1,0 +1,9 @@
+${AnsiColor.GREEN}
+#####  ####  #####   ####  #      #  ####  #####
+  #   #    # #    # #    # #      # #        #
+  #   #    # #    # #    # #      #  ####    #
+  #   #    # #    # #    # #      #      #   #
+  #   #    # #    # #    # #      # #    #   #
+  #    ####  #####   ####  ###### #  ####    #   　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　■　　　　■■　　　■■■　　　　　　　　　■■　　　　　　　
+    canal-client @ todolist
+    Spring Boot Version: ${spring-boot.version}
